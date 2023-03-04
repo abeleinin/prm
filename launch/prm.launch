@@ -1,0 +1,11 @@
+<launch>
+    <node name="prm1" pkg="demo" type="arena" />
+    <include file="$(find turtlebot3_gazebo)/launch/turtlebot3_empty_world.launch">
+        <arg name="x_pos" value="-4" />
+        <arg name="y_pos" value="-4" />
+        <arg name="gui" value="false" />
+    </include>
+    <include file="$(find demo)/launch/odomMap.launch" />
+    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find demo)/config/odomMap_rviz.rviz" />
+
+</launch>
