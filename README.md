@@ -4,7 +4,7 @@ Implementation of the [probabilistic roadmap algorithm](https://en.wikipedia.org
 
 ## Rviz Environment
 
-![PRM Rviz image](https://github.com/abeleinin/prm/blob/main/rviz_environment.png?raw=true)
+![PRM Rviz image](https://github.com/abeleinin/prm/blob/main/examples/rviz_environment.png?raw=true)
 
 ## Approach 
 
@@ -18,11 +18,11 @@ Implementation of the [probabilistic roadmap algorithm](https://en.wikipedia.org
 
 ### n = 3000 and k = 5 map
 
-![PRM Rviz image](https://github.com/abeleinin/prm/blob/main/PRM_n3000_k5.png?raw=true)
+![PRM Rviz image](https://github.com/abeleinin/prm/blob/main/examples/PRM_n3000_k5.png?raw=true)
 
 ## References 
 
-- Referenced PRM-Path-Planning repo
+- Referenced [KaleabTessera/PRM-Path-Planning](https://github.com/KaleabTessera/PRM-Path-Planning)
 - Starter code provide through affiliation with [VAIL](https://vail.sice.indiana.edu/)
 
 
